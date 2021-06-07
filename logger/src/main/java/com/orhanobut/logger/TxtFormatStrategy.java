@@ -77,6 +77,9 @@ public class TxtFormatStrategy implements FormatStrategy {
       // level
       builder.append(SEPARATOR);
       builder.append(Utils.logLevel(priority));
+      // tag
+      builder.append(SEPARATOR);
+      builder.append(tag);
       //use position
       builder.append(SEPARATOR);
       builder.append("[");
